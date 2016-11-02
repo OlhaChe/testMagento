@@ -1,0 +1,11 @@
+<?php
+ini_set('display_errors', 1);
+require 'app/bootstrap.php';
+require 'app/Mage.php';
+
+Mage::app('admin')->setUseSessionInUrl(false);
+
+umask(0);
+echo "ssss";
+echo Mage::getModel('techTalk/techLogic')->sayHello();
+//echo Mage::getModel('techTalk/techLogic')->sayHello();
