@@ -5,13 +5,35 @@
             <version>0.0.1</version>
         </Che_Techtalk>
     </modules>
+    <frontend>
+        <routers>
+            <techtalk>
+                <use>standard</use>
+                <args>
+                    <module>Che_Techtalk</module>
+                    <frontName>techtalk</frontName>
+                </args>
+            </techtalk>
+        </routers>
+        <layout>
+            <updates>
+                <techtalk>
+                    <file>techtalk.xml</file>
+                </techtalk>
+            </updates>
+        </layout>
+    </frontend>
     <global>
         <models>
             <techtalk>
                 <class>Che_Techtalk_Model</class>
             </techtalk>
         </models>
-
+        <block>
+            <techtalk>
+                <class>Che_Techtalk_Block</class>
+            </techtalk>
+        </block>
     </global>
 
 </config>

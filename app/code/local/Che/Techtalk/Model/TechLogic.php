@@ -1,8 +1,10 @@
 <?php
 
-class Che_Techtalk_Model_TechLogic extends Mage_Core_Model_Abstract
+class Che_Techtalk_Model_TechLogic
  {
-        public function sayHello(){
-                echo 'Hello world!';
+
+     public function sayHello()
+     {
+        return 'Hello world!=)';
      }
- }
+}
