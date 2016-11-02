@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Che_Techtalk>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Che_Techtalk>
+    </modules>
+</config>

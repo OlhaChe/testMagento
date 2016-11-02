@@ -12,30 +12,6 @@
             </techtalk>
         </models>
 
-        <blocks>
-            <techtalk>
-                <class>Che_Techtalk_Block</class>
-            </techtalk>
-        </blocks>
     </global>
 
-    <frontend>
-        <routers>
-            <techtalk>
-                <use>standard</use>
-                <args>
-                    <frontName>Techtalk</frontName>
-                    <module>Che_Techtalk</module>
-                </args>
-            </techtalk>
-        </routers>
-
-        <layout>
-            <updates>
-                <test>
-                    <file>techtalk.xml</file>
-                </test>
-            </updates>
-        </layout>
-    </frontend>
 </config>
