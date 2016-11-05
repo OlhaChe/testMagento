@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Che_Techtalk>
-            <version>0.0.1</version>
+            <version>1.0.0</version>
         </Che_Techtalk>
     </modules>
     <frontend>
@@ -29,11 +29,11 @@
                 <class>Che_Techtalk_Model</class>
             </techtalk>
         </models>
-        <block>
+        <blocks>
             <techtalk>
                 <class>Che_Techtalk_Block</class>
             </techtalk>
-        </block>
+        </blocks>
     </global>
 
 </config>
