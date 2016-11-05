@@ -11,7 +11,7 @@
                 <use>standard</use>
                 <args>
                     <module>Che_Techtalk</module>
-                    <frontName>techtalk</frontName>
+                    <frontName>magetalk</frontName>
                 </args>
             </techtalk>
         </routers>
