@@ -27,7 +27,16 @@
         <models>
             <techtalk>
                 <class>Che_Techtalk_Model</class>
+                <resourceModel>techtalk_resource</resourceModel>
             </techtalk>
+            <techtalk_resource>
+                <class>Che_Techtalk_Model_Resource</class>
+                <entities>
+                    <contact>
+                        <table>ain_contact</table>
+                    </contact>
+                </entities>
+            </techtalk_resource>
         </models>
         <blocks>
             <techtalk>
