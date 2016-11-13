@@ -24,6 +24,11 @@
         </layout>
     </frontend>
     <global>
+        <helpers>
+            <techtalk>
+                <class>Che_Techtalk_Helper</class>
+            </techtalk>
+        </helpers>
         <models>
             <techtalk>
                 <class>Che_Techtalk_Model</class>
@@ -44,5 +49,19 @@
             </techtalk>
         </blocks>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <!-- before="Mage_Adminhtml"-->
+                        <techtalk >
+                            Che_Techtalk_Adminhtml
+                        </techtalk>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
 
 </config>
