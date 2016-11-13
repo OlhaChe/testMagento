@@ -3,14 +3,11 @@
 /**
  *  @var Che_Techtalk_Block_View $this
 **/
-echo "<pre>";
-var_dump($this->getRequestRecord());
-echo "</pre>";
+
 ?>
-
-
 <ul>
-
+    <li><?php echo $this->getRequestRecord()->getName() . " said:"; ?></li>
+    <li><?=$this->getRequestRecord()->getComment()?></li>
 
 
 </ul><br />
