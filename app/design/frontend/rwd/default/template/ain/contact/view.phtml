@@ -11,3 +11,10 @@
 
 
 </ul><br />
+<h1>OTHER COMMENTS: </h1>
+<ul>
+    <?php foreach ($this->getCollection() as $val) { ?>
+        <li><?php echo $val->getName()." said:" ?> </li>
+        <li><?= $val->getComment() ?></li><br />
+    <?php } ?>
+</ul>
