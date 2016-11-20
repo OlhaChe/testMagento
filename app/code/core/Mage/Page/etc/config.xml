@@ -124,10 +124,10 @@
                 <default_charset>utf-8</default_charset>
             </head>
             <header translate="welcome" module="page">
-                <logo_src>images/logo.gif</logo_src>
+                <logo_src>images/logo_cola.gif</logo_src>
                 <logo_alt>Magento Commerce</logo_alt>
-                <logo_src_small>images/logo.gif</logo_src_small>
-                <welcome>Default welcome msg!</welcome>
+                <logo_src_small>images/logo_cola.gif</logo_src_small>
+                <welcome>Welcome msg!</welcome>
             </header>
             <footer translate="copyright" module="page">
                 <copyright>&amp;copy; 2016 Magento Demo Store. All Rights Reserved.</copyright>

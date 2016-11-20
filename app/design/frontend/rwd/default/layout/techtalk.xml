@@ -2,7 +2,15 @@
 <layout>
     <techtalk_index_index>
         <reference name="content">
-            <block type="techtalk/view" name="techtalk.hello" template="ain/contact/view.phtml"/>
+            <block type="techtalk/view" name="techtalk.hello" template="ain/contact/view.phtml">
+                <block type="cms/block" name="ain.cookies.notice">
+                    <action method="setBlockId">
+                        <id>
+                            cookie_restriction_notice_block
+                        </id>
+                    </action>
+                </block>
+            </block>
         </reference>
     </techtalk_index_index>
 </layout>
