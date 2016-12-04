@@ -1,0 +1,136 @@
+.category_1 li{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #6495ed;
+}
+.cat_title {
+    text-align: center;
+
+}
+
+.text_category {
+    width: 48%;
+    float: left;
+    position: relative;
+    margin: 20px;
+}
+
+.img_category {
+    width: 40%;
+    float: left;
+    margin: 20px;
+}
+
+.img_category img {
+    max-height:260px;
+    max-width: 100%;
+    position: relative;
+}
+
+.clearfix {
+    overflow: auto;
+}
+.date{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.posts_1{
+    border: 1px solid lightblue;
+    padding: 20px 30px;
+    margin: 10px 0;
+}
+.header_posts{
+    font-weight: bold;
+    font-size: 38px;
+    color:#000;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.body_posts{
+    margin:10px;
+}
+.posts_button{
+    padding: 5px 10px;
+    margin:20px;
+    background: cornflowerblue;
+    text-align: right;
+    color: #000;
+    text-decoration: none;
+}
+.posts_button:hover, .header_posts:hover{
+    color: #666666;
+}
+.header_posts div{
+
+    border-bottom: 1px solid lightblue;
+}
+.right_category li{
+    width: 200px;
+    border: 1px solid lightblue;
+    margin: 5px 10px;
+    padding: 10px 15px;
+}
+.right_category li:hover{
+    background: #e3f3ff;
+}
+
+.posts_1{
+    border: 1px solid lightblue;
+    padding: 20px 30px;
+    margin: 10px 0;
+}
+.header_posts{
+    font-weight: bold;
+    font-size: 38px;
+    color:#000;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.body_posts{
+    margin:10px;
+}
+.posts_button{
+    padding: 5px 10px;
+    margin:20px;
+    background: cornflowerblue;
+    text-align: right;
+    color: #000;
+    text-decoration: none;
+}
+.posts_button:hover, .header_posts:hover{
+    color: #666666;
+}
+.header_posts div{
+
+    border-bottom: 1px solid lightblue;
+}
+.right_category{
+    list-style-type:none
+}
+.right_category li{
+    width: 200px;
+    border: 1px solid lightblue;
+    margin: 5px 10px;
+    padding: 10px 15px;
+}
+.right_category li:hover{
+    background: #e3f3ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

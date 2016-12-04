@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @var Che_Blog_Block_View $this
+ **/
+
+?>
+
+<?php if(isset($_GET['id'])){?>
+
+<div class="clearfix ">
+    <h2 class="cat_title">
+        <?=$this->getRequestCategory($_GET['id'])->getName() ?>
+    </h2>
+    <div class="text_category">
+        <?=$this->getRequestCategory($_GET['id'])->getDescription() ?>
+    </div>
+    <div class="img_category">
+        <img src="<?=$this->getUrl('media').$this->getRequestCategory($_GET['id'])->getImage() ?>">
+
+    </div>
+</div>
+<?php } ?>

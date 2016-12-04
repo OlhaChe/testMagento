@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<layout>
+    <blog_index_index>
+        <reference name="content">
+            <block type="blog/view" name="blog.all_posts" template="ain/blog/view.phtml"/>
+        </reference>
+        <reference name="right">
+            <block type="blog/view" name="blog.all_categoryes" template="ain/blog/all_category.phtml"/>
+        </reference>
+    </blog_index_index>
+
+    <blog_index_post>
+        <reference name="content">
+            <block type="blog/view" name="blog.post1" template="ain/blog/post.phtml"/>
+        </reference>
+        <reference name="right">
+            <block type="blog/view" name="blog.all_categoryes" template="ain/blog/all_category.phtml"/>
+        </reference>
+    </blog_index_post>
+
+
+    <blog_category_index>
+        <reference name="content">
+            <block type="blog/view" name="blog.category_1" template="ain/blog/category.phtml"/>
+        </reference>
+        <reference name="content">
+            <block type="blog/view" name="blog.posts_categories" template="ain/blog/posts_categories.phtml"/>
+        </reference>
+        <reference name="right">
+            <block type="blog/view" name="blog.all_categoryes" template="ain/blog/all_category.phtml"/>
+        </reference>
+    </blog_category_index>
+</layout>

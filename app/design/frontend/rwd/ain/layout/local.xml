@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 <layout>
     <default>
-        <reference name="right">
-            <action method="unsetChild"><name>right.poll</name></action>
-        </reference>
-        <reference name="footer">
-            <block type="cms/block" name="office.description" before="cms_footer_links">
-                <action method="setBlockId">
-                    <id>office_description</id>
-                </action>
-            </block>
+        <reference name="head">
+            <action method="addCss"><stylesheet>css/template.css</stylesheet></action>
         </reference>
         <reference name="footer_links2">
             <action method="addLink">
                 <one>Contact Us</one>
                 <two>magetalk</two>
+            </action>
+            <action method="addLink">
+                <one>blog</one>
+                <two>blog</two>
+            </action>
+            <action method="addLink">
+                <one>blog category</one>
+                <two>category</two>
             </action>
         </reference>
     </default>

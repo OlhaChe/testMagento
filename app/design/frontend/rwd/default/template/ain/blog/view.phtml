@@ -1,0 +1,36 @@
+<?php
+
+/**
+ *  @var Che_Blog_Block_View $this
+ **/
+
+?>
+
+<h1>Blog</h1>
+<?php //echo $this->getChildHtml('pager');?>
+
+<?php foreach ($this->getPostCollection() as $val) { ?>
+
+<div class="posts_1">
+    <a href="<?php echo $this->getUrl('blog/index/post',array('id' => $val->getId_post() )) ?>" class="header_posts">
+        <h3>
+            <?php echo $val->getTitle(); ?>
+        </h3>
+
+    </a>
+    <div class="body_posts">
+        <p><?php echo $val->getShort_description();    ?></p>
+    </div>
+    <div>
+        <b>Categories: </b>
+        <a href="<?=$this->getUrl('blog/category/index',array('id' => $val->getCat_id() )) ?>"> <?=$this->getRequestCategory($val->getCat_id())->getName()?></a>
+    </div>
+    <div align="right" >
+        <a class="posts_button" href="<?php echo $this->getUrl('blog/index/post',array('id' => $val->getId_post() )) ?>">
+            More >>
+        </a>
+    </div>
+</div>
+
+<?php } ?>
+

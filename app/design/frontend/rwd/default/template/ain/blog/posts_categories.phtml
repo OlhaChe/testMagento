@@ -1,0 +1,33 @@
+<?php
+
+/**
+ *  @var Che_Blog_Block_View $this
+ **/
+
+?>
+
+<?php
+if(isset($_GET['id'])){
+
+
+foreach ($this->getPostsCategory($_GET['id']) as $val) { ?>
+
+    <div class="posts_1">
+        <a href="<?php echo $this->getUrl('blog/index/post',array('id' => $val->getId_post() )) ?>" class="header_posts">
+            <h3>
+                <?php echo $val->getTitle();    ?>
+            </h3>
+
+        </a>
+        <div class="body_posts">
+            <p><?php echo $val->getShort_description();    ?></p>
+        </div>
+        <div align="right" >
+            <a class="posts_button" href="<?php echo $this->getUrl('blog/index/post',array('id' => $val->getId_post() )) ?>">
+                More >>
+            </a>
+        </div>
+    </div>
+
+<?php }
+}?>

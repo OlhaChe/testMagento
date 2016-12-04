@@ -1,0 +1,17 @@
+<?php
+
+/**
+ *  @var Che_Blog_Block_View $this
+ **/
+
+?>
+
+<h1>Categories:</h1>
+<ul class="category_1">
+<?php foreach ($this->getCategoryCollection() as $val) { ?>
+
+        <li><a href="<?=$this->getUrl('blog/category/index',array('id' => $val->getId_category() )) ?>"><?php echo $val->getName();    ?></a></li>
+
+
+<?php } ?>
+</ul>

@@ -1,0 +1,22 @@
+<?php
+
+/**
+ *  @var Che_Blog_Block_View $this
+ **/
+
+?>
+
+<?php
+
+if(isset($_GET['id'])){?>
+
+    <h2><?=$this->getRequestPost($_GET['id'])->getTitle() ?></h2>
+    <div>
+        <?=$this->getRequestPost($_GET['id'])->getContent() ?>
+    </div>
+    <div class="date">
+        <?=$this->getRequestPost($_GET['id'])->getUpdate_at() ?>
+    </div>
+
+<?php } ?>
+
